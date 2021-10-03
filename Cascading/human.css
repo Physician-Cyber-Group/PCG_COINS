@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background: #faebdf;
+    background: #b65506;
     text-align: center;
 }
 .HIGEX{
@@ -68,7 +68,7 @@ button{
 }
 .Jack-pole{
     text-align: center;
-    background: rgb(122, 12, 39);
+    background: #552b0c;
     width: 100%;
 }
 .Jack-pole ul{
@@ -87,7 +87,7 @@ button{
     text-decoration: none;
 }
 .active, .Jack-pole ul li:hover {
-    background: #2bab0d;
+    background: #210949;
     border-radius: 3px;
 }
 .Jack-pole .fa{
@@ -147,11 +147,11 @@ button{
     flex-basis: 50%;
 }
 h1{
-    color: darkkhaki;
+    color: #000;
     font-size: 200%;
 }
 p{
-    color: rgb(113, 114, 153);
+    color: #000;
     font-size: 20px;
     line-height: 15px;
 }
@@ -166,7 +166,7 @@ p{
 @media (max-width: 909px){
     .Jack-pole #icon{
         display: block;
-        background: rgb(68, 42, 8);
+        background: #4481eb;
         width: 100%;
         text-align: right;
         top: -10px;
