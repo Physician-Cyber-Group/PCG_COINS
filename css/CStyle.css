@@ -1,0 +1,50 @@
+.pop{
+  color: red;
+}
+.pop1{
+  color: Green;
+}
+#invite_code {
+    font-size: 12px;
+}
+.login-inp {
+    margin: 0 30px 15px 30px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+}
+
+.login-inp label {
+    text-align: left;
+    display: inline-block;
+    color: #fff;
+    width:5em;
+}
+
+.login-inp input {
+    line-height: 40px;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.login-inp .submit {
+    display: block;
+    background: none;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 5px;
+}
+
+.login-txt {
+    text-align: center;
+    color: #fff;
+}
+
+.login-txt a {
+    color: #fff;
+    padding: 0 5px;
+}

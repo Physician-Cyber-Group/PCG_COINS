@@ -1,0 +1,305 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+.Container{
+  width:80%;
+  margin:auto;
+}
+.doter{
+  padding:20px;
+  color:#ffffff;
+  background-color:#0000f0;
+  text-align: center;
+}
+ul{
+  margin:0;
+  padding:0;
+}
+.jalall{
+  background: url('../img/REPLACE THIS SCREEN11112111711111111.png');
+  background-size: 100%;
+}
+.jalallu{
+  background: url('../img/Bestlogo.png');
+  background-size: 100%;
+  margin-top: 12%;
+  background-repeat: no-repeat;
+}
+
+.help{
+ 	background-color:#333;
+ 	color:#fff;
+ 	padding: 10px 15px;
+ 	border:none;
+  list-style: none;
+  text-decoration: none;
+ 	position:fixed;
+ 	top:400px;
+ }
+ #Snow{
+   background: url('../img/Signup.png');
+ }
+ #sideNav{
+   width: 250px;
+   height: 50vh;
+   position: fixed;
+   text-align: justify;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-size: 100%;
+   right: -250px;
+   top:0;
+   background: #800080;
+   z-index: 2;
+   transition: 0.5s;
+ }
+ nav ul li{
+   list-style: none;
+   margin: 20px 20px;
+ }
+ nav ul a{
+  text-decoration: none;
+  color: #fff;
+ }
+ .banner-btn{
+   margin: 70px auto 0;
+ }
+ .banner-btn a{
+   width:150px;
+   text-decoration: none;
+   display: inline-block;
+   margin: 0 10px;
+   padding: 12px 0;
+   color: #fff;
+   border: .5px solid #fff;
+   position: relative;
+   z-index: 1;
+   transition: color 0.5s;
+ }
+ .magagg{
+  margin-top: 10px;
+  height: 45px;
+  border: #008000 solid 3px;
+  font-size: 17px;
+  font-weight: 500;
+  background: #fff;
+  color: #00f000;
+  border-radius: 15px;
+  cursor: pointer;
+  width: 100%;
+}
+.magagg:hover{
+  color: #fff;
+  background: #08ff52;
+}
+ .banner-btn a span{
+   width: 0;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   background: #fff;
+   z-index: -1;
+   transition: 0.5s;
+ }
+ .banner-btn a:hover span{
+   width: 100%
+ }
+ .banner-btn a:hover{
+   color: #000;
+ }
+ #menubtn{
+   width: 50px;
+   height: 50px;
+   text-align: center;
+   background: #ffffff;
+   position:fixed;
+   right: 30px;
+   top:20px;
+   border-radius: 3px;
+   z-index: 3;
+   cursor: pointer;
+ }
+ #menubtn img{
+   width: 20px;
+   margin-top: 15px
+ }
+
+.button_1{
+  height:28px;
+  background:#333;
+  border:0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color:#ffffff;
+}
+
+.dark{
+  padding: 15px;
+  background: #27270949;
+  color: #ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+header{
+  background: #f7cb07;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#ffae01 5px solid;
+}
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+header #branding{
+  float:left;
+}
+header #branding h1{
+  margin:0;
+}
+header nav{
+  float:right;
+  margin-top:10px;
+}
+header .highlight, header .current a{
+  color: #08ff52;
+  font-weight: bold;
+}
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+#showcase{
+  min-height:350px;
+  background:url('../img/back.png');
+  text-align: center;
+  color:#ffffff;
+}
+#showcase h1{
+  margin-top:0px;
+  font-size: 40px;
+  margin-bottom:10px;
+}
+#showcase p{
+  font-size:20px;
+
+}
+#newsletter{
+  margin-bottom: 80px;
+  padding:50px;
+  color: #ffffff;
+  background:#9c7e1a;
+}
+#newsletter h1{
+    float: left;
+}
+#newsletter form{
+  float:right;
+  margin-top:15px;
+}
+#newsletter input[type="number"]{
+  padding:4px;
+  height: 19px;
+  width:180px;
+}
+#boxes{
+  margin-top:20px;
+}
+#boxes .box{
+  float: left;
+  text-align:center;
+  width: 30%;
+  padding: 10px;
+}
+#boxes .box img{
+  width: 80px;
+  border-radius: 50%;
+}
+
+aside#sidebar{
+  float:right;
+  width: 30%;
+  margin-top:10px;
+}
+
+aside#services .Quote input#sidebar .Quote textarea{
+  width:90%;
+  padding:5px;
+}
+
+article#main-col{
+  float: left;
+  width: 65%;
+}
+
+ul#services li{
+  list-style: none;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background: #e6e6e6;
+}
+
+#ter{
+  padding:20px;
+  margin-top:550px;
+  color:#008000;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-variant: small-caps;
+  font-weight: 600;
+  background-color:#ffe6072a;
+  border: #f7e70a solid 5px;
+  border-radius: 10px;
+  text-align: center;
+}
+#Signup{
+  padding: 15px;
+  background: #f7e70a;
+  color: #ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+  float:center;
+  width: 30%;
+  margin-top:10px;
+}
+
+@media (max-width: 768px) {
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  #texty #text,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align: center;
+    width: 100%;
+  }
+  header{
+    padding-bottom:20px;
+  }
+  #showcase h1{
+    margin-top:40px;
+  }
+  #newsletter button, .Quote button{
+  display:block;
+  width:100%;
+  }
+  #newsletter form input[type="email"] .Quote input, .Quote tex{
+  width:100%;
+  margin-bottom:5px;
+  }
+}

@@ -1,0 +1,32 @@
+.helpEE{
+    background-color:#008000;
+    color:#fff;
+    padding: 15px 20px;
+    border:none;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+  }
+  .helpEE:hover{
+    color: #008000;
+    background: #ffff;
+    border-radius: 15px;
+    border: #0000ff solid 3px;
+
+  }
+  .helpaE{
+    background-color:#00f000;
+    color:#fff;
+    padding: 15px 20px;
+    border:none;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+  }
+  .helpaE:hover{
+    color: #008000;
+    background: #ffff;
+    border-radius: 15px;
+    border: #4b0084 solid 3px;
+
+  }
