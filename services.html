@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="desription" content="Affordable and professional web design">
+    <meta name="keyword" content="web design, Affordable web design,professional web design">
+    <meta name="author" content="Uthmern Physician">
+    <title>PCG CITY | Services</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="Container">
+        <div id="branding">
+          <h1><span class="highlight">PCG</span> NETWORK CITY</h1>
+        </div>
+        <div id="sideNav">
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="About.html">About</a></li>
+              <li><a href="Contactus.html">Contact Us</a></li>
+              <li class="current"><a href="Services.html">Services</a></li>
+              <li><a href="form.php"><span></span>Sign UP</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div id="menubtn">
+        <img src="img/menu.png" id="menu">
+      </div>
+      <script>
+      var menubtn = document.getElementById("menubtn")
+      var sideNav = document.getElementById("sideNav")
+      var menu = document.getElementById("menu")
+
+      sideNav.style.right = "-250px";
+
+      menubtn.onclick = function() {
+        if (sideNav.style.right == "-250px") {
+          sideNav.style.right = "0";
+        }
+        else{
+          sideNav.style.right = "-250px";
+        }
+      }
+      </script>
+    </header>
+    <section id="main">
+      <div class="Container">
+        <article id="main-col">
+          <h1 class="page-title">Services</h1>
+          <ul id="services">
+            <li>
+              <h3>PCG C</h3>
+              <p>Buy and Sell PCG Coins For Trending</p>
+              <p>Pricing: Coming Soon</p>
+            </li>
+            <li>
+              <h3>PCG WE</h3>
+              <p>A Service Where All Physicians earn per Day. A practical Marketting Skills.</p>
+              <p>Range: Coming Soon</p>
+            </li>
+            <li>
+              <h3>PCG 24A</h3>
+              <p>A Service Which Provide a whole lots of Solution for your Assessment and also Guide you as much as possible.</p>
+              <p>Range: Coming Soon</p>
+            </li>
+            <li>
+              <h3>PCG Refer Comission</h3>
+              <p>We give out Rebate to Physicians Introducing there Family & Freinds to our CITY And We May Contact You From Time To Time For Your Support.</p>
+            </li>
+          </ul>
+        </article>
+        <aside id="sidebar">
+          <div class="dark">
+          <h3>Get A Quote</h3>
+            <div>
+              <label>Name</label><br>
+              <input type="text" placeholder="Name">
+            </div>
+            <div>
+              <label>Email</label><br>
+              <input type="email" placeholder="Email Address">
+            </div>
+            <div>
+              <label>Message</label><br>
+              <textarea placeholder="Message"></textarea>
+            </div>
+            <button class="button_1" type="submit">Send</button>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </body>
+</html>
