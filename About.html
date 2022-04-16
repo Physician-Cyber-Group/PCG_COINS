@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="desription" content="Affordable and professional web design">
+    <meta name="keyword" content="web design, Affordable web design,professional web design">
+    <meta name="author" content="Uthmern Physician">
+    <link rel="icon" href="img/Bestlogo.png">
+    <title>PCG CITY | About</title>
+
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="Container">
+        <div id="branding">
+          <h1><span class="highlight">PCG</span> NETWORK CITY</h1>
+        </div>
+        <div id="sideNav">
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li class="current"><a href="About.html">About</a></li>
+              <li><a href="Contactus.html">Contact Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="forms.html"><span></span>LOGIN</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div id="menubtn">
+        <img src="img/menu.png" id="menu">
+      </div>
+      <script>
+      var menubtn = document.getElementById("menubtn")
+      var sideNav = document.getElementById("sideNav")
+      var menu = document.getElementById("menu")
+
+      sideNav.style.right = "-250px";
+
+      menubtn.onclick = function() {
+        if (sideNav.style.right == "-250px") {
+          sideNav.style.right = "0";
+        }
+        else{
+          sideNav.style.right = "-250px";
+        }
+      }
+      </script>
+    </header>
+    <section id="main">
+      <div class="Container">
+        <article id="main-col">
+          <h1 class="page-title">About Us</h1>
+          <p>
+            PCG CITY:
+          </p>
+          <p class="dark">
+            This is a Team That Always Consider on Solving Physicians problems. The Term Physician Remember Stands for Solving Problems and always give the best Price and the best quality for the Physicians. Physicians are all customers That actually come together to Make the PCGCt and also kind of Using the PCGC. Also including the CEO (Uthmern_Physician). Thanks For Your Support we can't Mention a whole lots of names but we promise to.  
+          </p>
+        </article>
+        <aside id="sidebar">
+          <div class="dark">
+          <h3>What We Do</h3>
+          <p>We are Statistically Making ten (10) Project for now to all the Physicians to be happy. One of Which are: We Brand Make Coins For Buy/Sell (Trading) and Make a task for every Single User of PCGCt so as to increase his Earnings alots are Coming So Stay tuned</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <div id="ter">
+      <footer>
+        <p>PCG City, Copyright &copy; 2021</p>
+      </footer>
+    </div>
+  </body>
+</html>

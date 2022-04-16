@@ -1,0 +1,32 @@
+.anog{
+    padding: 10px;
+}
+.ango{
+    float: left;
+}
+.anog nav{
+    float: center;
+}
+.anog nav ul{
+    margin:0;
+    padding:0;
+}
+.anog nav ul li{
+    display:inline;
+    list-style: none;
+    margin: 20px 20px;
+}
+.anog nav ul a{
+    padding: 5px;
+    border: 3px solid rgb(7, 41, 233);
+    border-radius: 10px;
+    text-decoration:chartreuse;
+    color: #000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bolder;
+    text-transform:uppercase;
+}
+.curent{
+    background-color: rgb(73, 228, 11);
+    border-radius: 50%;
+}

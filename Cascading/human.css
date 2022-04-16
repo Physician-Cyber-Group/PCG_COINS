@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #b65506;
+    text-align: center;
+}
+.HIGEX{
+    
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1{
+    background: #df6b0c;
+}
+.card2{
+    background: rgb(100, 3, 0);
+}
+.card3{
+    background: darkkhaki;
+}
+.card4{
+    background: darkmagenta;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+.card p{
+    text-shadow: 0 0 5px #000;
+    font-size: 10px;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.Jack-pole #icon{
+    color: #fff;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+.Jack-pole{
+    text-align: center;
+    background: #552b0c;
+    width: 100%;
+}
+.Jack-pole ul{
+    display: inline-flex;
+    list-style: none;
+    color:#fff;
+    width: 100%;
+}
+.Jack-pole ul li{
+    width: 100%;
+    margin: 15px;
+    padding: 15px;
+}
+.Jack-pole ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.active, .Jack-pole ul li:hover {
+    background: #210949;
+    border-radius: 3px;
+}
+.Jack-pole .fa{
+    margin-right: 8px;
+}
+.subway{
+    display: none;
+}
+.Jack-pole ul li:hover .subway{
+    display: block;
+    position: absolute;
+    background: #210949;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.Jack-pole ul li:hover .subway ul{
+    display: block;
+    margin: 10px;
+}
+.Jack-pole ul li:hover .subway ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.Jack-pole ul li:hover .subway ul li:last-child{
+    border-bottom: none;
+}
+.Jack-pole ul li:hover .subway ul li a:hover{
+    color: #b2ff00;
+}
+.cubway{
+    display: none;
+}
+.menu-bar:hover .cubway{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: #210949;
+}
+.fa-angle-down{
+    float: right;
+}
+.fa-angle-right{
+    float: right;
+}
+.rowl{
+    margin-top: 100px;
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: #000;
+    font-size: 200%;
+}
+p{
+    color: #000;
+    font-size: 20px;
+    line-height: 15px;
+}
+@media (max-width: 10px){
+    .Jack-pole ul{
+        margin-right: 20px;
+    }
+    .Jack-pole ul li{
+        font-size: 17px;
+    }
+}
+@media (max-width: 909px){
+    .Jack-pole #icon{
+        display: block;
+        background: #552b0c;
+        width: 100%;
+        text-align: right;
+        top: -10px;
+        position: fixed;
+    }
+    .Jack-pole ul{
+        position: fixed;
+        width: 50%;
+        height: 65%;
+        background: rgb(0,100,0);
+        left: -100%;
+        text-align: left;
+        display: block;
+        transition: all .5s;
+    }
+    .Jack-pole ul.show{
+        left: 50%;
+    }
+    .rowl{
+        display: inline-block;
+    }
+}
