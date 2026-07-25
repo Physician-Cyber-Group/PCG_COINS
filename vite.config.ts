@@ -4,19 +4,20 @@ import svgr from "vite-plugin-svgr";
 import path from "path";
 
 export default defineConfig({
-  plugins: [
-    react(),
-    svgr({
-      svgrOptions: {
-        icon: true,
-        exportType: "named",
-        namedExport: "ReactComponent",
-      },
-    }),
-  ],
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "./src"),
-    },
-  },
-});
+  base: "/PCG_COINS/", // Essential for GitHub Pages asset routing
+    plugins: [
+        react(),
+            svgr({
+                  svgrOptions: {
+                    icon: true,
+                    exportType: "named",
+                    namedExport: "ReactComponent",
+                  },
+            }),
+    ],
+ resolve: {
+                                                            alias: {
+                                                                  "@": path.resolve(__dirname, "./src"),
+                                                                      },
+                                                                        },
+                                                                        });
